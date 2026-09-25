@@ -1,52 +1,176 @@
 body {
-    background-color: rebeccapurple;
-    color: #333;
+    background-color: #eef4f8;
+    color: #263238;
     font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 h1 {
-    color: #1f2937;
+    color: white;
     font-size: 40px;
 }
-h2{
-    color:#2563eb;
-    font-size: 28px;
-}
-h3{
-    font-size: 20px;
+
+h2 {
+    color: #d9eaf2;
+    font-size: 40px;
 }
 
-p{
-    line-height: 1.6; /* INTERLINEADO
+h3 {
+    color: #164e63;
+    font-size: 40px;
 }
 
- section {
-    background-color: red;
+p {
+    line-height: 1.6;
 }
 
-.seccion { /*CLASE (.)*/
-    background-color: red;
+.seccion {
+    background-color: white;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #c7dce5;
+    border-radius: 10px;
+}
 
+.seccion h2 {
+    margin-top: 0;
+}
+
+.seccion {
+    background-color: #b9dce8;
 }
 
 #perfil {
-    background-color: #92b6ee;
-
+    background-color: #8fc7d8;
 }
 
-
-header{
-    background-color: aqua;
-    color:aquamarine
+header {
+    background-color: #123b4a;
+    color: white;
     text-align: center;
 }
 
-header h1{
-    color: azure;
-
+header h1 {
+    color: white;
+    font-size: 40px;
 }
 
-header h2{
-    color: bisque;
+header h2 {
+    color: #d9eaf2;
+    font-size: 40px;
+}
 
+header img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+a {
+    color: #087ea4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #a8c4ce;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+button {
+    background-color: #087ea4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #c7dce5;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #123b4a;
+    color: white;
+}
+
+.proyecto {
+    background-color: #f5fafc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #d4e5eb;
+    border-radius: 8px;
+}
+
+.experiencia {
+    background-color: #f5fafc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #d4e5eb;
+    border-radius: 8px;
+}
+
+.formacion {
+    background-color: #f5fafc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #d4e5eb;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
 }
